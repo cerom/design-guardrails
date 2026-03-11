@@ -1,7 +1,7 @@
 {
   "name": "design-guardrails",
   "version": "0.1.0",
-  "description": "Deterministic feedback hooks for AI coding agents to follow design systems",
+  "description": "Make your AI coding agent use your design system without human intervention.",
   "main": "dist/cli.js",
   "bin": {
     "design-guardrails": "dist/cli.js"
