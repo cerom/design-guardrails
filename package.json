@@ -1,0 +1,43 @@
+{
+  "name": "design-guardrails",
+  "version": "0.1.0",
+  "description": "Deterministic feedback hooks for AI coding agents to follow design systems",
+  "main": "dist/cli.js",
+  "bin": {
+    "design-guardrails": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli.ts",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "typescript": "^5.0.0",
+    "commander": "^11.0.0",
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.6",
+    "glob": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/inquirer": "^8.2.6",
+    "tsx": "^4.0.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0",
+    "ts-jest": "^29.0.0"
+  },
+  "files": [
+    "dist/**/*",
+    "templates/**/*"
+  ],
+  "keywords": [
+    "ai",
+    "claude-code",
+    "design-system",
+    "typescript",
+    "react"
+  ],
+  "author": "",
+  "license": "MIT"
+}
