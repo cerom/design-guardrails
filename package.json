@@ -1,6 +1,6 @@
 {
   "name": "design-guardrails",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Make your AI coding agent use your design system without human intervention.",
   "main": "dist/index.js",
   "bin": {
