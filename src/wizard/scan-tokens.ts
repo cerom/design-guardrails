@@ -20,10 +20,14 @@ const CSS_FILES = [
   'src/globals.css',
   'src/index.css',
   'styles/globals.css',
+  'src/styles/globals.css',
+  'src/styles/variables.css',
   'src/app/globals.scss',
   'app/globals.scss',
   'src/globals.scss',
   'styles/globals.scss',
+  'src/styles/globals.scss',
+  'src/styles/variables.scss',
 ];
 
 export function scanTokens(cwd: string): DetectedTokenRule[] {
